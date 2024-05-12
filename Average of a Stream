@@ -1,0 +1,11 @@
+	vector<float> streamAvg(int arr[], int n) {
+	    float sum=0;
+	    vector<float>result;
+	    for(int i=0;i<n;i++)
+	    {
+	        sum+=arr[i];
+	        float res=((sum)/(i+1));
+	        result.push_back(res);
+	    }
+	    return result;
+	}
