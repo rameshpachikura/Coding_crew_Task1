@@ -1,0 +1,3 @@
+double simpleInterest(double P, double R, double T) {
+        return (P*R*T)/100;
+    }
